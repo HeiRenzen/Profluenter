@@ -1,9 +1,10 @@
-
+//import components disini ya
+import Navbar from './Components/Navbar'
 function App() {
   return (
-    <>
-      <div className="bg-black">yo</div>
-    </>
+    <main>
+      <Navbar/>
+    </main>
   )
 }
 
